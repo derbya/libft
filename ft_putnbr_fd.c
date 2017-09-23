@@ -6,13 +6,13 @@
 /*   By: aderby <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 13:10:45 by aderby            #+#    #+#             */
-/*   Updated: 2017/09/22 22:05:54 by aderby           ###   ########.fr       */
+/*   Updated: 2017/09/22 22:18:33 by aderby           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(intmax_t n, int fd)
 {
 	char c;
 

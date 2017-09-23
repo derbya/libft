@@ -6,7 +6,7 @@
 /*   By: aderby <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/08 15:54:27 by aderby            #+#    #+#             */
-/*   Updated: 2017/09/22 22:06:58 by aderby           ###   ########.fr       */
+/*   Updated: 2017/09/22 22:18:51 by aderby           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 void				ft_striter(char *s, void (*f)(char *));
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
-void				ft_putnbr_fd(int n, int fd);
+void				ft_putnbr_fd(intmax_t n, int fd);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr(const char *s);
 void				ft_putendl(char const *s);
