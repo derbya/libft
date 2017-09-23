@@ -6,7 +6,7 @@
 #    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/04/23 05:55:20 by aderby            #+#    #+#              #
-#    Updated: 2017/09/22 21:48:32 by aderby           ###   ########.fr        #
+#    Updated: 2017/09/22 21:52:00 by aderby           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,6 @@ $(NAME):
 	ar rcs $(NAME) $(OBJ)
 clean:
 	/bin/rm -f $(OBJ)
-	fclean: clean
+fclean: clean
 	/bin/rm -f $(NAME)
-	re: fclean all
+re: fclean all
